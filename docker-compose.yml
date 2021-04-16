@@ -1,0 +1,11 @@
+version: '3'
+services:
+  fileinclusion:
+   build: Exercise1
+   ports:
+     - "7001:80"
+  pathtraversal:
+   build: Exercise2
+   ports:
+     - "7002:80"
+ 
