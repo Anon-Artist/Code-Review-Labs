@@ -6,5 +6,5 @@
    git clone https://github.com/Anon-Artist/Code-Review-Labs
 4. cd Code-Review-Labs
 5. sudo docker-compose up -d
-6. Now we can access the challenge from the browser in 7001 and 7002 port
+6. Now we can access the challenge from the browser in 7001 and 7002 port<br>
   (http://127.0.0.1:7001 & http://127.0.0.1:7002 respectively)
