@@ -2,7 +2,7 @@
 
 ## Lab Setup
 1. Install docker and docker-compose
-2. Open a terminal and type the command as follows:
+2. Open a terminal and type the command as follows:<br>
    git clone https://github.com/Anon-Artist/Code-Review-Labs
 4. cd Code-Review-Labs
 5. sudo docker-compose up -d
