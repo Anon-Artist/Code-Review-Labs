@@ -1,0 +1,16 @@
+FROM debian:jessie
+
+RUN apt-get update && \
+    apt-get upgrade -y && \
+    apt-get install -y apache2 php5 
+
+RUN rm -rf /var/www/html/*
+
+ADD index.php /var/www/html/
+ADD bg.jpg /var/www/html/
+ADD flag.txt /home/
+
+CMD ["apachectl", "-DFOREGROUND"]
+
+EXPOSE 80
+
